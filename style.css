@@ -50,12 +50,13 @@ body {
 
 #text::after {
   content: attr(data-text);
-  top: 27px;
-  left: -40px;
+  top: 30px;
+  left: -30px;
+  right: 25px;
   position: absolute;
   color: rgba(0, 0, 0, 0.1);
   text-shadow: none;
-  /* filter: blur(2px); */
+  filter: blur(1px);
   z-index: -2;
 }
 
